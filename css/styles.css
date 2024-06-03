@@ -19,10 +19,10 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 36%;
+    width: 250px;
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 33%;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
@@ -114,4 +114,142 @@ section{
     margin: 10px 0px;
     font-size: 0.6em;
     border: 1px solid transparent;
+}
+
+.dos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    background:linear-gradient(to bottom,rgb(52, 52, 52),black) ;
+    border-radius: 20px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 85%;
+}
+.one p{
+    font-size: 0.7em;
+    font-size: 200;
+}
+.one div select{
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+    font-size: 0.5em;
+    color: white;
+    padding: 5px;
+    border: none;
+    box-shadow: 0 0 1px white;
+}
+.two{
+    width: 85%;
+    margin-top: 5px;
+}
+.two .puno{
+    font-size: 0.6em;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: 500;
+    color: white;
+}
+.pdos{
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.8em;
+    color: white;
+}
+.pdos strong{
+    color: grey;
+}
+.ptres .verde{
+    font-weight: 300;
+    color: rgb(17, 255, 0);
+}
+.ptres{
+    font-size: 0.5em;
+    color: white;
+}
+
+
+.tree{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.contenedor{
+    display: flex;
+}
+.caja-gris{
+    border-radius: 15px;
+    background-color:rgb(77, 77, 77) ;
+    margin: 5px;
+    padding: 10px;
+    width: 50%;
+}
+.caja-gris p{
+    margin: 0;
+    padding: 2px;
+    font-size: 0.6em;
+    color: rgb(167, 167, 167);
+}
+.caja-gris p .gris{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 500;
+}
+.caja-gris p span{
+    color: white;
+}
+.caja-clara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 238, 235);
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.caja-clara div{
+    margin:0;
+    width: 50%;
+}
+.caja-clara div h3{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.caja-clara div p{
+    margin: 0;
+    font-size: 0.5em;
+}
+.caja-clara img{
+    width: 45%;
+    height: 45%;
+}
+
+.four{
+    width: 90%;
+    margin-top:30px;
+}
+.four h4{
+    color: white;
+    font-size: 0.7em;
+    margin: 5px;
+}
+.four img{
+    width: 100%;
+}
+.four p{
+    color: rgb(164, 164, 164);
+    font-size: 0.5em;
+    margin: 2px 5px;
+    margin-bottom: 20px;
 }
