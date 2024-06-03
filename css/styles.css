@@ -114,6 +114,10 @@ section{
     margin: 10px 0px;
     font-size: 0.6em;
     border: 1px solid transparent;
+    transition-duration: 0.5s;
+}
+.inferior button:hover{
+    background-color: black;
 }
 
 .dos{
