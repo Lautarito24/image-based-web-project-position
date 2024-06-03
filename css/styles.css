@@ -2,9 +2,116 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 section{
-    background-color: rgba(255, 166, 0, 0.453);
+    background-color: rgba(255, 0, 0, 0.074);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: Josefin Sans;
+}
+.uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.superior{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:10px;
+    width: 95%;
+}
+.superior img{
+    width: 50px;
+    clip-path: circle(40%);
+}
+.superior div h4{
+    margin: 0;
+    padding: 0;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+.superior div p{
+    font-size: 0.1em;
+}
+.corazon{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+}
+.corazon img{
+    clip-path: none;
+    width: 12px;
+    margin:0px 10px;
+    padding: 6px;
+    background-color: rgba(128, 128, 128, 0.076);
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.154);
+}
+
+.medio{
     width: 90%;
-    height: 90vh;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.11);
+}
+.medio h2{
+    font-size: 0.6em;
+}
+.medio p{
+    font-size: 0.4em;
+}
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.boton{
+    font-size: 0.1em;
+    font-weight: bold;
+    border: none;
+    padding: 3px;
+    margin: 0px 3px;
+    border-radius: 5px;
+    background-color: rgba(0, 21, 255, 0.159);
+}
+
+.inferior{
+    width: 90%;
+}
+.inferior h1{
+    font-size: 1em;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.inferior p{
+    font-size: 0.2em;
+}
+.inferior button img{
+    width: 15px;
+}
+.inferior button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:rgba(0, 136, 255, 0.812);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    font-size: 0.6em;
+    border: 1px solid transparent;
 }
