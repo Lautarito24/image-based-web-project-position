@@ -1,6 +1,6 @@
 # image-based-web-project-position
 ## Descripción del Proyecto
-Aviento es una plataforma de networking profesional diseñada para conectar a profesionales de diversas industrias. Nuestra interfaz intuitiva permite a los usuarios crear perfiles, compartir estadísticas de su carrera, y gestionar sus proyectos y clientes de manera eficiente.
+Es una plataforma profesional diseñada para conectar a profesionales de diversas industrias. Nuestra interfaz intuitiva permite a los usuarios crear perfiles, compartir estadísticas de su carrera, y gestionar sus proyectos y clientes de manera eficiente.
 
 ## Características Principales
 - **Perfil Profesional**: Presenta tu experiencia y habilidades de una manera moderna y atractiva.
@@ -18,4 +18,3 @@ Para ver el diseño de la plataforma:
 - **Trabajo Remoto**: Ofrecemos la flexibilidad de trabajar desde cualquier lugar, en cualquier momento.
 - **Crecimiento y Oportunidades**: Únete hoy y descubre cómo puedes conseguir nuevos clientes el doble de rápido.
 
-Para más información o si tienes alguna pregunta, no dudes en contactarnos a través de nuestro formulario de contacto en la página web.
